@@ -82,6 +82,29 @@ footer {
   padding: 20px;
   max-width: 400px;
   border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+	.courses {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.course-card {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
+.course-card button {
+  padding: 10px 20px;
+  border: none;
+  background: #4facfe;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+}
+
 
