@@ -50,7 +50,7 @@ footer {
   padding: 15px;
 }
 .features {
-  padding: 50px;
+  padding: 50px 20px;
   text-align: center;
 }
 
@@ -62,3 +62,26 @@ footer {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
+@media (min-width: 768px) {
+  .features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .feature-box {
+    margin: 0;
+  }
+}
+}
+
+.feature-box {
+  background: white;
+  margin: 15px auto;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
