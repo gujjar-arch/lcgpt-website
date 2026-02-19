@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LCGPT - Learn Coding Easily</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #f4f8ff;
+      text-align: center;
+    }
+
+    header {
+      background: #2563eb;
+      color: white;
+      padding: 20px;
+    }
+
+    textarea {
+      width: 80%;
+      height: 200px;
+      margin: 20px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background: #2563eb;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    #output {
+      background: black;
+      color: lime;
+      padding: 15px;
+      width: 80%;
+      margin: auto;
+      min-height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>🚀 LCGPT</h1>
+  <p>Code in Your Language. Build Your Future.</p>
+</header>
+
+<h2>Try LCGPT Online</h2>
+
+<textarea id="code">
+// Write LCGPT here
+dikhao "Hello World"
+</textarea>
+
+<br>
+<button onclick="run()">Run</button>
+
+<h3>Output:</h3>
+<div id="output"></div>
+
+<script>
+function run() {
+  let code = document.getElementById("code").value;
+  let lines = code.split("\n");
+  let out = "";
+
+  for (let line of lines) {
+    line = line.trim();
+
+    if (line.startsWith("dikhao")) {
+      let msg = line.replace("dikhao","").trim();
+      out += msg.replace(/"/g,"") + "<br>";
+    }
+
+    if (line.startsWith("show")) {
+      let msg = line.replace("show","").trim();
+      out += msg.replace(/"/g,"") + "<br>";
+    }
+  }
+
+  document.getElementById("output").innerHTML = out;
+}
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LCGPT – Learn Coding Easily</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>LCGPT 🚀</h1>
+  <p>India's Easy Coding Platform</p>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Learn</a>
+    <a href="#">AI Tools</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Learn Coding in Hinglish</h2>
+  <p>Build Apps • Games • AI • Career</p>
+  <button>Start Learning</button>
+</section>
+
+<section class="about">
+  <h2>About LCGPT</h2>
+  <p>
+    LCGPT is a next-generation platform to make coding simple for everyone.
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 LCGPT | Founder: Lav</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+<section class="features">
+  <h2>Why Choose LCGPT?</h2>
+  <div class="feature-box">
+    <h3>🚀 Easy Learning</h3>
+    <p>Learn coding in simple Hinglish format.</p>
+  </div>
+  <div class="feature-box">
+    <h3>🤖 AI Powered</h3>
+    <p>Smart AI tools to guide your coding journey.</p>
+  </div>
+  <div class="feature-box">
+    <h3>💼 Career Focused</h3>
+    <p>Build real projects and earn opportunities.</p>
+  </div>
+</section>

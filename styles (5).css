@@ -1,0 +1,64 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+}
+
+header {
+  background: #111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+}
+
+.hero button {
+  padding: 12px 25px;
+  border: none;
+  background: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.about {
+  padding: 40px;
+  text-align: center;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.features {
+  padding: 50px;
+  text-align: center;
+}
+
+.feature-box {
+  background: white;
+  margin: 15px auto;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
